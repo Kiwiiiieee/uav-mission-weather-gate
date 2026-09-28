@@ -112,6 +112,7 @@ The PowerShell scripts in `app/scripts/` do the same steps on Windows. `install_
 ## Status
 - The unit tests pass (2/2).
 - The backend was run and evaluated a live Open-Meteo forecast end to end.
+- The Streamlit frontend runs with the steps above on a standard Python installation.
 - The TB2 constants come from my thesis model, which is based on public specifications. The tool is a study prototype, not an operational flight-approval system.
 
 ## License
