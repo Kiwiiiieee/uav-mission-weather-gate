@@ -18,7 +18,7 @@ A pre-flight mission-readiness tool built alongside my MATLAB ICE mission model 
 Wind limits scale with the TB2 cruise speed. The thresholds used in the thesis (Table 3) are:
 
 | Constraint | Caution | Mission rejected |
-|---|---|---|
+|:--|:--|:--|
 | Wind speed | > 35 % of cruise (~16 m/s) | > 45 % of cruise (~21 m/s) |
 | Wind gusts | > 40 % of cruise (~18 m/s) | > 55 % of cruise (~25 m/s) |
 | Crosswind | > 25 % of cruise (~11 m/s) | > 35 % of cruise (~16 m/s) |
@@ -64,7 +64,7 @@ The header image shows a Mission Approved result (Ankara, readiness score 100/10
 
 ## Repository contents
 | Path | Content |
-|---|---|
+|:--|:--|
 | `app/drone_weather/` | Core Python package (decision engine, Open-Meteo client, performance model, TB2 parameters, schemas) |
 | `app/backend/` | FastAPI backend |
 | `app/frontend/app.py` | Streamlit dashboard |
@@ -118,5 +118,4 @@ The PowerShell scripts in `app/scripts/` do the same steps on Windows. `install_
 ## License
 [MIT](LICENSE)
 
----
 Kaoutar Ammara · Aerospace Engineer · [GitHub](https://github.com/Kiwiiiieee) · [LinkedIn](https://linkedin.com/in/kaoutar-ammara)
